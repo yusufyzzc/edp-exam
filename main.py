@@ -34,7 +34,7 @@ class Applicant:
         print(f"Notification for {self.name}: {message}")
 
     
-    def ApplicationSubmittedEvent():
+choose_interview_date = 
 
 
 if __name__ == "__name__":
@@ -45,7 +45,13 @@ if __name__ == "__name__":
     applicant_2 = Applicant("Mike", "Terrain", "02-01-2004", "Hamburg-Germany", "12987")
 
     company.register_applicants(applicant_1)
-    company.
+    company.register_applicants(applicant_2)
+
+    company.add_event("Your application number is 02")
+    company.add_event("Congratulations, Select Interview date")
+    company.process_events()
+
+
         
 
     
